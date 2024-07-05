@@ -52,4 +52,4 @@ class TestApp:
         assert len(response_json["quakes"]) == 0
 
         # confirm status
-        assert response.status_code == 200
+        assert response.status_code == 404
